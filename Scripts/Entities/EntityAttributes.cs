@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class EntityAttributes : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string eName;
+    public int hPoint;
+    public int sPoint;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int pStrength;
+    public int pDefense;
+    public int pSpeed; // affects attack speed and evasion
+    public int pAccuracy;
+
+    public int mStrength;
+    public int mDefense;
+    public int mSpeed; // affects spell speed and evasion.
+    public int mAccuracy;
 }
