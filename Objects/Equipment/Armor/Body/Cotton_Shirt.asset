@@ -9,16 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3848e73f6e9a6f43a8e27188a2098b0, type: 3}
-  m_Name: Cotton Pants
-  m_EditorClassIdentifier: 
-  item_name: Cotton Pants
+  m_Script: {fileID: 0}
+  m_Name: Cotton_Shirt
+  m_EditorClassIdentifier: Assembly-CSharp::BodyGearData
+  item_name: Cotton Shirt
   p_strength_mod: 0
-  p_defense_mod: 1
+  p_defense_mod: 2
   p_speed_mod: 0
   p_accuracy_mod: 0
   ma_strength_mod: 0
   ma_defense_mod: 1
   ma_speed_mod: 0
   ma_accuracy_mod: 0
-  type: 2

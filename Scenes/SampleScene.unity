@@ -771,12 +771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 225409ee4a9ff3b47b2d95b3f5e35ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  equipment:
-  - {fileID: 11400000, guid: c6f40fb8ac765644daa0238824aa48ae, type: 2}
-  - {fileID: 11400000, guid: 24d9b1035bb3d2f44801a256422f5689, type: 2}
-  - {fileID: 11400000, guid: 7bb01426c2e5f2c48858ed0cc715c37f, type: 2}
-  - {fileID: 11400000, guid: 9d15fd3ffc9c7a5418443e303fb5eb34, type: 2}
-  thisGO: {fileID: 1102909018}
+  weapon: {fileID: 11400000, guid: c6f40fb8ac765644daa0238824aa48ae, type: 2}
+  head: {fileID: 11400000, guid: 7ad09787735838842a930d0cd1c90391, type: 2}
+  body: {fileID: 11400000, guid: 61960bdef4a78814fad326a9759f6761, type: 2}
+  legs: {fileID: 11400000, guid: b35ef07afbc92284db2d0a2c3c1191ab, type: 2}
 --- !u!114 &1102909020
 MonoBehaviour:
   m_ObjectHideFlags: 0

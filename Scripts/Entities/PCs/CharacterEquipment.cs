@@ -5,28 +5,24 @@ using UnityEngine;
 
 public class CharacterEquipment : MonoBehaviour
 {
-    const int TotalEquipment = 4;
-    public List<EquipableItem> equipment = new List<EquipableItem>(TotalEquipment);
-    public GameObject thisGO;
-
     private EntityAttributes stats;
+
+    public WeaponData weapon;
+    public HeadGearData head;
+    public BodyGearData body;
+    public LegGearData legs;
+
+    void Awake()
+    {
+        stats = GetComponent<EntityAttributes>();     
+    }
 
     private void Start()
     {
-        stats = thisGO.GetComponent<EntityAttributes>();
-
-        printAttributes(stats);
-        for (int i = 0; i < TotalEquipment; i++)
-        {
-            Debug.Log($"Equipped: {equipment[i].ItemName} in slot {equipment[i].Slot}");
-            equipment[i].ApplyStatModifier(stats);
-        }
-        printAttributes(stats);
-        
-    }
-
-    private void printAttributes(EntityAttributes stats)
-    {
-        Debug.Log($"P Attack: {stats.pStrength}\nP Defense: {stats.pDefense}\nP Speed: {stats.pSpeed}\nP Accuracy: {stats.pAccuracy}");
+        // all Gear must apply stats
+        weapon.ApplyStatModifier(stats);
+        head.ApplyStatModifier(stats);
+        body.ApplyStatModifier(stats);
+        legs.ApplyStatModifier(stats);
     }
 }
