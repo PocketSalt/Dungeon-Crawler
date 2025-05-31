@@ -771,7 +771,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 225409ee4a9ff3b47b2d95b3f5e35ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  equippedItem: {fileID: 11400000, guid: 3a3443652c34b9749a4c59c129807a45, type: 2}
+  equipment:
+  - {fileID: 11400000, guid: c6f40fb8ac765644daa0238824aa48ae, type: 2}
+  - {fileID: 11400000, guid: 24d9b1035bb3d2f44801a256422f5689, type: 2}
+  - {fileID: 11400000, guid: 7bb01426c2e5f2c48858ed0cc715c37f, type: 2}
+  - {fileID: 11400000, guid: 9d15fd3ffc9c7a5418443e303fb5eb34, type: 2}
+  thisGO: {fileID: 1102909018}
 --- !u!114 &1102909020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,17 +789,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e01c6a49a12da45927414a5d8472fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eName: 
-  hPoint: 0
-  sPoint: 0
-  pStrength: 0
-  pDefense: 0
-  pSpeed: 0
-  pAccuracy: 0
-  mStrength: 0
-  mDefense: 0
-  mSpeed: 0
-  mAccuracy: 0
+  eName: Suzaku
+  hPoint: 10
+  sPoint: 5
+  pStrength: 1
+  pDefense: 1
+  pSpeed: 1
+  pAccuracy: 1
+  mStrength: 1
+  mDefense: 1
+  mSpeed: 1
+  mAccuracy: 1
 --- !u!4 &1102909021
 Transform:
   m_ObjectHideFlags: 0

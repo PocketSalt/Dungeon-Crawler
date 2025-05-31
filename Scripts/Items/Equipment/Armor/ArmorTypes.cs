@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IArmor : IEquipable
+public enum ArmorType
 {
-    int Defense { get; }
+    Head,
+    Body,
+    Leg
 }
-

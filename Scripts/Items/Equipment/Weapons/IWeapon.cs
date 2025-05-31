@@ -4,6 +4,7 @@ using UnityEngine;
 
 public interface IWeapon : IEquipable
 {
-    void NormalAttack();
-    void HeavyAttack();
+    public void NormalAttack();
+    public void HeavyAttack();
+    public void AoEAttack();
 }

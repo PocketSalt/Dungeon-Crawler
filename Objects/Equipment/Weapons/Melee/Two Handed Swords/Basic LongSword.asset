@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe4102e1a43a73459cc5e527b022c29, type: 3}
+  m_Name: Basic LongSword
+  m_EditorClassIdentifier: 
+  item_name: Basic Long Sword
+  p_strength_mod: 2
+  p_defense_mod: 0
+  p_speed_mod: -1
+  p_accuracy_mod: 0
+  ma_strength_mod: 0
+  ma_defense_mod: 0
+  ma_speed_mod: 0
+  ma_accuracy_mod: 0
+  weapon_strength: 5

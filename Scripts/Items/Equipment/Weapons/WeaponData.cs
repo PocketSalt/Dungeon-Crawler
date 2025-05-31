@@ -2,10 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class WeaponData : EquipableItem, IWeapon
+public abstract class WeaponData : EquipableItem
 {
-    public 
-
-    public virtual void ApplyStatModifiers(EntityAttributes attributes) { }
-    public virtual void RemoveStatModifiers(EntityAttributes attributes) { }
+    public int weapon_strength;
 }

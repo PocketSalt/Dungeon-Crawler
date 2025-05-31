@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class ArmorData : EquipableItem, IArmor
+[CreateAssetMenu(fileName = "New Armor", menuName = "Items/Gear/Armor")]
+public class ArmorData : EquipableItem
 {
-    [SerializeField] protected int defense;
+    public override EquipmentSlot Slot => EquipmentSlot.Head;
 
-    public virtual int Defense => defense;
+    public ArmorType type;
 }
 

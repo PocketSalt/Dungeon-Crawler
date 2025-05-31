@@ -6,4 +6,7 @@ public interface IEquipable
 {
     string ItemName { get; }
     EquipmentSlot Slot { get; }
+
+    void ApplyStatModifier(EntityAttributes stats);
+    void RemoveStatModifier(EntityAttributes stats);
 }
